@@ -1,0 +1,68 @@
+{
+  "header": {
+    "personal_info": "Personal Info",
+    "key_skill": "Skill",
+    "language": "Language",
+    "experience": "Experience",
+    "education": "Education",
+    "email": "Email",
+    "mobile": "Mobile",
+    "linkedin": "LinkedIn",
+    "resume": "RESUME",
+    "project": "PROJECTS"
+  },
+  "resume": {
+    "name": "Jay Lin",
+    "title": "Software Engineer",
+    "personal_info": {
+      "email": "rockers7414@gmail.com",
+      "mobile": "+886 911 619511",
+      "linkedin": "www.linkedin.com/in/shaohua-lin/"
+    },
+    "education": [
+      {
+        "start": "2012",
+        "end": "2014",
+        "school": "Chung Hua University",
+        "dept": "Computer Science and Information Engineering",
+        "degree": "Master of Science"
+      },
+      {
+        "start": "2008",
+        "end": "2012",
+        "school": "Chung Hua University",
+        "dept": "Computer Science and Information Engineering",
+        "degree": "Bachelor's Degree"
+      }
+    ],
+    "experience": [
+      {
+        "start": "2017/08",
+        "end": "Until Now",
+        "company": "APEX International Financial Engineering Res. & Tech. Co., Ltd",
+        "title": "Sr. Software Engineer",
+        "contribution": [
+          "a"
+        ]
+      },
+      {
+        "start": "2015/10",
+        "end": "2017/08",
+        "company": "Ignition Design Labs",
+        "title": "Software Engineer",
+        "contribution": [
+          "a"
+        ]
+      },
+      {
+        "start": "2009/06",
+        "end": "2010/09",
+        "company": "POMES Co., Ltd",
+        "title": "Manufacturing Execution System Engineer",
+        "contribution": [
+          "a"
+        ]
+      }
+    ]
+  }
+}

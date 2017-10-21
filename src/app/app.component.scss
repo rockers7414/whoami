@@ -1,0 +1,29 @@
+$primary-color: #143A52;
+$secondary-color: #6E828A;
+
+.container, .container > .row {
+  min-height: 100vh;
+}
+
+.header, .header2 {
+  padding: 0.2em;
+  color: $primary-color;
+  margin-top: 0.2em;
+}
+
+.header {
+  background-color: #CDE3EB;
+}
+
+.header2 {
+  border-top: 1px $primary-color solid;
+  border-bottom: 1px $primary-color solid;
+  margin-top: 0.3em;
+}
+
+.left-bar {
+  background-color: #E3EFF3;
+  .img-thumbnail {
+    width: 60%;
+  }
+}

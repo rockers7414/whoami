@@ -1,0 +1,68 @@
+{
+  "header": {
+    "personal_info": "資訊",
+    "key_skill": "專長",
+    "language": "語言",
+    "experience": "經驗",
+    "education": "學歷",
+    "email": "信箱",
+    "mobile": "手機",
+    "linkedin": "LinkedIn",
+    "resume": "簡歷",
+    "project": "個人專案"
+  },
+  "resume": {
+    "name": "林紹驊",
+    "title": "Software Engineer",
+    "personal_info": {
+      "email": "rockers7414@gmail.com",
+      "mobile": "+886 911 619511",
+      "linkedin": "www.linkedin.com/in/shaohua-lin/"
+    },
+    "education": [
+      {
+        "start": "2012",
+        "end": "2014",
+        "school": "中華大學",
+        "dept": "資訊工程所",
+        "degree": "碩士畢業"
+      },
+      {
+        "start": "2008",
+        "end": "2012",
+        "school": "中華大學",
+        "dept": "資訊工程系",
+        "degree": "學士畢業"
+      }
+    ],
+    "experience": [
+      {
+        "start": "2017/08",
+        "end": "仍在職",
+        "company": "寶碩財務科技股份有限公司",
+        "title": "資深軟體工程師",
+        "contribution": [
+          "a"
+        ]
+      },
+      {
+        "start": "2015/10",
+        "end": "2017/08",
+        "company": "Ignition Design Labs",
+        "title": "Software Engineer",
+        "contribution": [
+          "a"
+        ]
+      },
+      {
+        "start": "2009/06",
+        "end": "2010/09",
+        "company": "博棟科技有限公司",
+        "title": "Manufacturing Execution System Engineer",
+        "contribution": [
+          "a"
+        ]
+      }
+    ]
+  }
+}

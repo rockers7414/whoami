@@ -1,20 +1,82 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 left-bar">
+      <div class="d-flex flex-column">
+        <img class="img-thumbnail rounded-circle align-self-center mt-5 mb-3" src="./assets/images/profile.jpg" alt="jay_profile_image">
+        <div class="d-flex flex-column align-items-center">
+          <div class="h2" translate>{{ 'resume.name' }}</div>
+          <div class="h4" translate>{{ 'resume.title' }}</div>
+        </div>
+      </div>
+      <div>
+        <div class="h4 header" translate>{{ 'header.personal_info' }}</div>
+        <small translate>{{ 'header.email' }}</small>
+        <div translate>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          {{ 'resume.personal_info.email' }}
+        </div>
+        <small translate>{{ 'header.mobile' }}</small>
+        <div translate>
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          {{ 'resume.personal_info.mobile' }}
+        </div>
+        <small translate>{{ 'header.linkedin' }}</small>
+        <div translate>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          {{ 'resume.personal_info.linkedin' }}
+        </div>
+      </div>
+      <div>
+        <div class="h4 header" translate>{{ 'header.key_skill' }}</div>
+      </div>
+      <div>
+        <div class="h4 header" translate>{{ 'header.language' }}</div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="row d-flex justify-content-end">
+        <button class="btn btn-sm btn-link" (click)="translate.use('zh-TW')">繁體</button>
+        <button class="btn btn-sm btn-link" (click)="translate.use('en-US')">English</button>
+      </div>
+      <ngb-tabset>
+        <ngb-tab>
+          <ng-template ngbTabTitle><span translate>{{ 'header.resume' }}</span></ng-template>
+          <ng-template ngbTabContent>
+            <div>
+              <div class="h4 header2" translate>{{ 'header.experience' }}</div>
+              <div class="row my-1" *ngFor="let e of experience">
+                <div class="col-md-3">
+                  <span translate>{{ e.start }}</span> - <span translate>{{ e.end }}</span>
+                </div>
+                <div class="col-md-9">
+                  <div class="h5" translate>{{ e.title }}</div>
+                  <div translate>{{ e.company }}</div>
+                  <ul>
+                    <li *ngFor="let c of e.contribution">{{ c }}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="h4 header2" translate>{{ 'header.education' }}</div>
+              <div class="row my-1" *ngFor="let e of education">
+                <div class="col-md-3">
+                  <span translate>{{ e.start }}</span> - <span translate>{{ e.end }}</span>
+                </div>
+                <div class="col-md-9">
+                  <div class="h5" translate>{{ e.school }}</div>
+                  <div translate>{{ e.dept }}</div>
+                  <div translate>{{ e.degree }}</div>
+                </div>
+              </div>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle><span translate>{{ 'header.project' }}</span></ng-template>
+          <ng-template ngbTabContent></ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+    </div>
+  </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
