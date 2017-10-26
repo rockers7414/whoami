@@ -1,0 +1,162 @@
+{
+  "header": {
+    "personal_info": "資訊",
+    "key_skill": "技能",
+    "experience": "經驗",
+    "education": "學歷",
+    "email": "信箱",
+    "mobile": "手機",
+    "linkedin": "LinkedIn",
+    "resume": "簡歷",
+    "project": "個人專案",
+    "role": "角色",
+    "link": "連結"
+  },
+  "resume": {
+    "name": "林紹驊",
+    "title": "Software Engineer",
+    "personal_info": {
+      "email": "rockers7414@gmail.com",
+      "mobile": "+886 911 619511",
+      "linkedin": "www.linkedin.com/in/shaohua-lin/"
+    },
+    "skill": [
+      "系統分析與設計",
+      "系統整合",
+      "軟體開發",
+      "專案進度規劃",
+      "程式碼品質控管",
+      "改善開發流程",
+      "自動化測試及部署"
+    ],
+    "education": [
+      {
+        "start": "2012",
+        "end": "2014",
+        "school": "中華大學",
+        "dept": "資訊工程所",
+        "degree": "碩士畢業"
+      },
+      {
+        "start": "2008",
+        "end": "2012",
+        "school": "中華大學",
+        "dept": "資訊工程系",
+        "degree": "學士畢業"
+      }
+    ],
+    "experience": [
+      {
+        "start": "2017/08",
+        "end": "仍在職",
+        "company": "寶碩財務科技股份有限公司",
+        "title": "資深軟體工程師",
+        "contribution": [
+          "翻新AngularJS舊版專案至Angular，提升團隊前端技術能力。",
+          "設計及整合開發分散式運算叢集伺服器，提升8倍運算速度。",
+          "架設CI/CD伺服器改善開發流程，提升工作品質。",
+          "管理專案進度，安排成員工作項目。",
+          "程式碼品質控管，提升產品的穩定性。",
+          "擔任公司內部內訓講師，提升公司內容的技術能力。"
+        ]
+      },
+      {
+        "start": "2015/10",
+        "end": "2017/08",
+        "company": "Ignition Design Labs",
+        "title": "Software Engineer",
+        "contribution": [
+          "開發Tier-1 RESTful API，隱藏後端伺服器的存在，提升系統安全性。",
+          "開發2017 CES Demo專用的即時伺服器及資料視覺化。",
+          "利用Docker模擬雲端的開發環境，提昇60倍團隊工作效率。",
+          "整合第三方認證服務並建立權限控管伺服器及管理頁面。",
+          "開發公司產品的Android應用程式",
+          "整合CI伺服器與WikiMedia，自動化更新產品軟體版本資訊至WikiMedia。"
+        ]
+      },
+      {
+        "start": "2009/06",
+        "end": "2010/09",
+        "company": "博棟科技有限公司",
+        "title": "Manufacturing Execution System Engineer",
+        "contribution": [
+          "伺服器架設",
+          "系統程式設計",
+          "維護系統與伺服器的服務"
+        ]
+      }
+    ]
+  },
+  "project": [
+    {
+      "name": "tayal",
+      "date": "2017",
+      "abstract": "利用node.js/express及MongoDB實作Music Video的資訊整合RESTful API。",
+      "link": "https://github.com/rockers7414/tayal",
+      "duty": [
+        "專案擁有者",
+        "Code Reviewer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "sylvia/syliva-admin",
+      "date": "2017",
+      "abstract": "利用Angular實作SPA，整合tayal的RESTful API來管理Music Video的資訊。",
+      "link": "https://github.com/rockers7414/sylvia-admin",
+      "duty": [
+        "專案擁有者",
+        "Code Reviewer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "SMSLifeHelp",
+      "date": "2015",
+      "abstract": "利用jQuery及Bootstrap CSS設計替代役補助資格試算網頁。",
+      "link": "https://github.com/rockers7414/SMSLifeHelp",
+      "duty": [
+        "專案擁有者",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "P2P網路安全協防攻擊偵測平台",
+      "date": "2013",
+      "abstract": "利用C#實作P2P網路及ARP spoofing的技術實作Virtual Gateway，進行網路封包掃瞄。",
+      "link": "",
+      "duty": [
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "廠房內運輸機器人之避障路徑規劃",
+      "date": "2012",
+      "abstract": "利用C#實作多目標基因遺傳演算法，得到最理想的避障路徑，並使用藍芽將路徑傳送給機器人。",
+      "link": "https://www.youtube.com/watch?v=mXGE7UXt0lo",
+      "duty": [
+        "專案擁有者",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "Event Analysis System",
+      "date": "2012",
+      "abstract": "利用Python實作應用程式來Parsing Apache的Access Log，並找出惡意攻擊的行為。",
+      "link": "",
+      "duty": [
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "I Hack Music",
+      "date": "2012",
+      "abstract": "利用Python實作Google App Engine應用程式及Google hacking的搜尋方式，取得使用者查找的音樂。",
+      "link": "https://github.com/cclien0725/IHM",
+      "duty": [
+        "Coworker",
+        "Software Engineer"
+      ]
+    }
+  ]
+}
