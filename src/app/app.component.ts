@@ -13,13 +13,13 @@ export class AppComponent {
   skill;
   project;
 
-  constructor(private translate: TranslateService) {
+  constructor(private translateSvc: TranslateService) {
     const lang = 'en-US';
-    translate.setDefaultLang(lang);
-    translate.use(lang);
+    translateSvc.setDefaultLang(lang);
+    translateSvc.use(lang);
 
-    translate.onLangChange.subscribe((event: LangChangeEvent) => {
-      translate.getTranslation(event.lang).subscribe(data => {
+    translateSvc.onLangChange.subscribe((event: LangChangeEvent) => {
+      translateSvc.getTranslation(event.lang).subscribe(data => {
         this.education = data.resume.education;
         this.experience = data.resume.experience;
         this.skill = data.resume.skill;
