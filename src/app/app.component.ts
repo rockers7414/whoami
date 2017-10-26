@@ -10,6 +10,8 @@ export class AppComponent {
 
   education;
   experience;
+  skill;
+  project;
 
   constructor(private translate: TranslateService) {
     const lang = 'en-US';
@@ -20,6 +22,8 @@ export class AppComponent {
       translate.getTranslation(event.lang).subscribe(data => {
         this.education = data.resume.education;
         this.experience = data.resume.experience;
+        this.skill = data.resume.skill;
+        this.project = data.project;
       });
     });
   }

@@ -2,14 +2,15 @@
   "header": {
     "personal_info": "Personal Info",
     "key_skill": "Skill",
-    "language": "Language",
     "experience": "Experience",
     "education": "Education",
     "email": "Email",
     "mobile": "Mobile",
     "linkedin": "LinkedIn",
     "resume": "RESUME",
-    "project": "PROJECTS"
+    "project": "PROJECTS",
+    "role": "Role",
+    "link": "Link"
   },
   "resume": {
     "name": "Jay Lin",
@@ -19,6 +20,16 @@
       "mobile": "+886 911 619511",
       "linkedin": "www.linkedin.com/in/shaohua-lin/"
     },
+    "skill": [
+      "System analysis and design",
+      "System Integration",
+      "Software development",
+      "Software testing and deployment",
+      "Project Management",
+      "Code Reviewer",
+      "CI/CD",
+      "Automation"
+    ],
     "education": [
       {
         "start": "2012",
@@ -42,7 +53,11 @@
         "company": "APEX International Financial Engineering Res. & Tech. Co., Ltd",
         "title": "Sr. Software Engineer",
         "contribution": [
-          "a"
+          "Migrate the AngularJS project to Angular framework, improve team members' capability.",
+          "Build up distributed computing cluster, improve the performance by 8x.",
+          "Hosted CI server, improve the development flow and quality.",
+          "Manage the progress of project and code review to increase product stability.",
+          "Training team member as a better programmer."
         ]
       },
       {
@@ -51,7 +66,12 @@
         "company": "Ignition Design Labs",
         "title": "Software Engineer",
         "contribution": [
-          "a"
+          "Built up tier-1 RESTful API service.",
+          "Developed 2017 CES demo server and data visualization.",
+          "Constructed development/testing environment via Docker, improve the development speed.",
+          "Integrated 3rd party identity service and built up authorization server and frontend application.",
+          "Developed Android application.",
+          "Integrated Jenkins server with WikiMedia, it'll update product information to the page automatically."
         ]
       },
       {
@@ -60,9 +80,83 @@
         "company": "POMES Co., Ltd",
         "title": "Manufacturing Execution System Engineer",
         "contribution": [
-          "a"
+          "Hosted the server for distributed application environment.",
+          "System software and tooling development.",
+          "Maintained system and server."
         ]
       }
     ]
-  }
+  },
+  "project": [
+    {
+      "name": "tayal",
+      "date": "2017",
+      "abstract": "Using node.js and express with MongoDB to implement RESTful API for indexing Music Video.",
+      "link": "https://github.com/rockers7414/tayal",
+      "duty": [
+        "Project Owner",
+        "Code Reviewer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "sylvia/syliva-admin",
+      "date": "2017",
+      "abstract": "Using Angular to build up single page application(SPA) and integrate the backend service which is provided by tayal to manage the metadata of Music Video.",
+      "link": "https://github.com/rockers7414/sylvia-admin",
+      "duty": [
+        "Project Oonwer",
+        "Code Reviewer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "SMSLifeHelp",
+      "date": "2015",
+      "abstract": "Using jQuery and Bootstrap CSS to create the online website for the military departure of local government in my downtown. It helps the civil servants and civil to review the application and produce the report.",
+      "link": "https://github.com/rockers7414/SMSLifeHelp",
+      "duty": [
+        "Project Owner",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "Collaborative Network Defense Platform",
+      "date": "2013",
+      "abstract": "Using C# to implement the P2P network and ARP spoofing to implement virtual gateway, then scan the network pacakges.",
+      "link": "",
+      "duty": [
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "Smart Robot in Factory",
+      "date": "2012",
+      "abstract": "Using C# to implement multiobjective genetic algorithm and search the optimal path for robot.",
+      "link": "https://www.youtube.com/watch?v=mXGE7UXt0lo",
+      "duty": [
+        "Project Owner",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "Event Analysis System",
+      "date": "2012",
+      "abstract": "Using Python to parse the access log of the Apache web server, and figure out the attack behavior.",
+      "link": "",
+      "duty": [
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "I Hack Music",
+      "date": "2012",
+      "abstract": "Using Python to implement the Google App Engine(GAE) application and using google hacking to search the music that the user wants.",
+      "link": "https://github.com/cclien0725/IHM",
+      "duty": [
+        "Coworker",
+        "Software Engineer"
+      ]
+    }
+  ]
 }

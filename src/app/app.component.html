@@ -28,9 +28,9 @@
       </div>
       <div>
         <div class="h4 header" translate>{{ 'header.key_skill' }}</div>
-      </div>
-      <div>
-        <div class="h4 header" translate>{{ 'header.language' }}</div>
+        <ul>
+          <li *ngFor="let s of skill">{{ s }}</li>
+        </ul>
       </div>
     </div>
     <div class="col-md-8">
@@ -45,13 +45,15 @@
             <div>
               <div class="h4 header2" translate>{{ 'header.experience' }}</div>
               <div class="row my-1" *ngFor="let e of experience">
-                <div class="col-md-3">
-                  <span translate>{{ e.start }}</span> - <span translate>{{ e.end }}</span>
-                </div>
-                <div class="col-md-9">
-                  <div class="h5" translate>{{ e.title }}</div>
+                <div class="col-md-12">
+                  <div>
+                    <span class="h5" translate>{{ e.title }}</span>
+                    <div class="float-right">
+                      <span translate>{{ e.start }}</span> - <span translate>{{ e.end }}</span>
+                    </div>
+                  </div>
                   <div translate>{{ e.company }}</div>
-                  <ul>
+                  <ul class="mt-1">
                     <li *ngFor="let c of e.contribution">{{ c }}</li>
                   </ul>
                 </div>
@@ -74,7 +76,27 @@
         </ngb-tab>
         <ngb-tab>
           <ng-template ngbTabTitle><span translate>{{ 'header.project' }}</span></ng-template>
-          <ng-template ngbTabContent></ng-template>
+          <ng-template ngbTabContent>
+            <div class="row my-2" *ngFor="let p of project">
+              <div class="col-md-12">
+                <div class="h4">
+                  <span class="mr-2">{{ p.date }}</span>
+                  <span>{{ p.name }}</span>
+                </div>
+                <div>
+                  <p>{{ p.abstract }}</p>
+                </div>
+                <div *ngIf="p.link">
+                  <strong translate>{{ 'header.link' }}</strong>:
+                  <a [href]="p.link">{{ p.link }}</a>
+                </div>
+                <div>
+                  <strong translate>{{ 'header.role' }}</strong>:
+                  <span class="badge badge-pill badge-success mr-1" *ngFor="let r of p.duty">{{ r }}</span>
+                </div>
+              </div>
+            </div>
+          </ng-template>
         </ngb-tab>
       </ngb-tabset>
     </div>
