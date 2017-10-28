@@ -72,12 +72,19 @@
                 </div>
               </div>
             </div>
+            <div>
+              <div class="h4 header2" translate>{{ 'header.honor' }}</div>
+              <div class="row my-1" *ngFor="let h of honor">
+                <div class="col-md-1">{{ h.date }}</div>
+                <div class="col-md-11">{{ h.title }}</div>
+              </div>
+            </div>
           </ng-template>
         </ngb-tab>
         <ngb-tab>
           <ng-template ngbTabTitle><span translate>{{ 'header.project' }}</span></ng-template>
           <ng-template ngbTabContent>
-            <div class="row my-2" *ngFor="let p of project">
+            <div class="row my-3" *ngFor="let p of project">
               <div class="col-md-12">
                 <div class="h4">
                   <span class="mr-2">{{ p.date }}</span>
@@ -85,6 +92,18 @@
                 </div>
                 <div>
                   <p>{{ p.abstract }}</p>
+                </div>
+                <div>
+                  <strong translate>{{ 'header.feature' }}</strong>
+                  <ul>
+                    <li *ngFor="let f of p.feature">{{ f }}</li>
+                  </ul>
+                </div>
+                <div>
+                  <strong translate>{{ 'header.key_tech' }}</strong>
+                  <ul>
+                    <li *ngFor="let t of p.key_tech">{{ t }}</li>
+                  </ul>
                 </div>
                 <div *ngIf="p.link">
                   <strong translate>{{ 'header.link' }}</strong>:

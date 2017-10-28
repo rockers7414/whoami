@@ -12,6 +12,7 @@ export class AppComponent {
   experience;
   skill;
   project;
+  honor;
 
   constructor(public translate: TranslateService) {
     const lang = 'en-US';
@@ -23,6 +24,7 @@ export class AppComponent {
         this.education = data.resume.education;
         this.experience = data.resume.experience;
         this.skill = data.resume.skill;
+        this.honor = data.resume.honor;
         this.project = data.project;
       });
     });

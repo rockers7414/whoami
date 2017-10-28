@@ -10,7 +10,10 @@
     "resume": "RESUME",
     "project": "PROJECTS",
     "role": "Role",
-    "link": "Link"
+    "link": "Link",
+    "key_tech": "Key Tech",
+    "feature": "Feature",
+    "honor": "Honer"
   },
   "resume": {
     "name": "Jay Lin",
@@ -20,6 +23,12 @@
       "mobile": "+886 911 619511",
       "linkedin": "www.linkedin.com/in/shaohua-lin/"
     },
+    "honor": [
+      {
+        "date": "2014",
+        "title": "The Member of the Phi Tau Phi Scholastic Honor Society of the R.O.C."
+      }
+    ],
     "skill": [
       "System analysis and design",
       "System Integration",
@@ -91,7 +100,21 @@
     {
       "name": "tayal",
       "date": "2017",
-      "abstract": "Using node.js and express with MongoDB to implement RESTful API for indexing Music Video.",
+      "abstract": "Tayal provides RESTful APIs for endpoint. The system administrator can manage metadata of music video and the user can search what they want about music video through tayal APIs. In addition, we're trying to figure out the potential music video which the user had never watched but may like.",
+      "feature": [
+        "Provide RESTful APIs for endpoint, such as website.",
+        "Manage metadata of music video through APIs.",
+        "User can manage their playlist through APIs.",
+        "etc."
+      ],
+      "key_tech": [
+        "node.js",
+        "express",
+        "MongoDB",
+        "ES6 promise",
+        "RESTful API",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/tayal",
       "duty": [
         "Project Owner",
@@ -102,7 +125,22 @@
     {
       "name": "sylvia/syliva-admin",
       "date": "2017",
-      "abstract": "Using Angular to build up single page application(SPA) and integrate the backend service which is provided by tayal to manage the metadata of Music Video.",
+      "abstract": "We develop the single page application(SPA) to manage the metadata of music video. We also develop the formal SPA for user to watch the music video, and let them can access their data through their mobile device.",
+      "feature": [
+        "Integrate RESTful APIs provided by tayal.",
+        "The system administrator can manage metadata of music video.",
+        "The user can watch music video and manage their playlist.",
+        "etc."
+      ],
+      "key_tech": [
+        "Angular",
+        "angular-cli",
+        "RWD",
+        "Lazy Load",
+        "Rxjs",
+        "Bootstrap",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/sylvia-admin",
       "duty": [
         "Project Oonwer",
@@ -113,7 +151,17 @@
     {
       "name": "SMSLifeHelp",
       "date": "2015",
-      "abstract": "Using jQuery and Bootstrap CSS to create the online website for the military departure of local government in my downtown. It helps the civil servants and civil to review the application and produce the report.",
+      "abstract": "Using jQuery and Bootstrap CSS to create the online website for the military department of local government in my downtown. It helps the civil servants and civil to review the application and produce the report.",
+      "feature": [
+        "Help to review the validation of application.",
+        "Help to produce the report of application.",
+        "etc."
+      ],
+      "key_tech": [
+        "jQuery",
+        "Bootstrap",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/SMSLifeHelp",
       "duty": [
         "Project Owner",
@@ -123,7 +171,21 @@
     {
       "name": "Collaborative Network Defense Platform",
       "date": "2013",
-      "abstract": "Using C# to implement the P2P network and ARP spoofing to implement virtual gateway, then scan the network pacakges.",
+      "abstract": "We design the platform that the user can scan the local network and detect the network attack behaviour. Once the attack is detected, we can stop the attack behaviour by blocking their network.",
+      "feature": [
+        "The user can request platform administrator to scan the local network.",
+        "Platform administrator can block the network attack behaviour.",
+        "The platform can pack the local network via the virtual gateway.",
+        "etc."
+      ],
+      "key_tech": [
+        "C#.net",
+        "P2P",
+        "UDP",
+        "ARP protocol",
+        "sniffer",
+        "etc."
+      ],
       "link": "",
       "duty": [
         "Software Engineer"
@@ -132,7 +194,16 @@
     {
       "name": "Smart Robot in Factory",
       "date": "2012",
-      "abstract": "Using C# to implement multiobjective genetic algorithm and search the optimal path for robot.",
+      "abstract": "We used the multiobjective genetic algorithm to figure out the optimal path for the robot. It can transport the material through smoother, safer and shorter path in the factory.",
+      "feature": [
+        "Using the multiobjective genetic algorithm to figure out the optimal path.",
+        "etc."
+      ],
+      "key_tech": [
+        "C#.net",
+        "Multiobjective genetic algorithm",
+        "etc."
+      ],
       "link": "https://www.youtube.com/watch?v=mXGE7UXt0lo",
       "duty": [
         "Project Owner",
@@ -142,7 +213,17 @@
     {
       "name": "Event Analysis System",
       "date": "2012",
-      "abstract": "Using Python to parse the access log of the Apache web server, and figure out the attack behavior.",
+      "abstract": "User can use our system to scan the log to figure out the attack behaviour, and generate the attack report.",
+      "feature": [
+        "Parsing apache access log to detect attack behaviour.",
+        "Generate the pdf report.",
+        "etc."
+      ],
+      "key_tech": [
+        "Python",
+        "Apache",
+        "etc."
+      ],
       "link": "",
       "duty": [
         "Software Engineer"
@@ -151,8 +232,43 @@
     {
       "name": "I Hack Music",
       "date": "2012",
-      "abstract": "Using Python to implement the Google App Engine(GAE) application and using google hacking to search the music that the user wants.",
+      "abstract": "We implement the Google App Engine(GAE) application and use google hacking to search the music that the user wants. User can manage their playlist and play the music in the application.",
+      "feature": [
+        "User can login/logout system by the Gmail account.",
+        "User can manage his/her own playlist on the website.",
+        "User can play the music on the website with repeat/repeat one mode, etc.",
+        "etc."
+      ],
+      "key_tech": [
+        "Python",
+        "Google hacking",
+        "Google App Engine",
+        "etc."
+      ],
       "link": "https://github.com/cclien0725/IHM",
+      "duty": [
+        "Coworker",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "3C Technical Product Shopping Cart",
+      "date": "2010",
+      "abstract": "This is the course project. I created the online shopping cart for 3C products with my classmate. We used ASP.net and MSSQL to implement the website.",
+      "feature": [
+        "User can login/logout and update his/her profile, they also can manage the orders.",
+        "Admin can easily public their product to the website.",
+        "The user can browse all products in a list view or grid view, even look for the detailed information of the product.",
+        "The system will inform the admin that the product has been ordered by the user already.",
+        "etc."
+      ],
+      "key_tech": [
+        "ASP.net",
+        "C#",
+        "MSSQL",
+        "etc."
+      ],
+      "link": "",
       "duty": [
         "Coworker",
         "Software Engineer"
