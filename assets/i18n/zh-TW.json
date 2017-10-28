@@ -10,7 +10,10 @@
     "resume": "簡歷",
     "project": "個人專案",
     "role": "角色",
-    "link": "連結"
+    "link": "連結",
+    "key_tech": "關鍵技術",
+    "feature": "功能介紹",
+    "honor": "榮譽"
   },
   "resume": {
     "name": "林紹驊",
@@ -20,6 +23,12 @@
       "mobile": "+886 911 619511",
       "linkedin": "www.linkedin.com/in/shaohua-lin/"
     },
+    "honor": [
+      {
+        "date": "2014",
+        "title": "The Member of the Phi Tau Phi Scholastic Honor Society of the R.O.C."
+      }
+    ],
     "skill": [
       "系統分析與設計",
       "系統整合",
@@ -91,7 +100,20 @@
     {
       "name": "tayal",
       "date": "2017",
-      "abstract": "利用node.js/express及MongoDB實作Music Video的資訊整合RESTful API。",
+      "abstract": "tayal提供RESTful APIs給終端節點。系統管理員可以透過APIs管理MV的資料，同時使用者也可以透過APIs查詢MV。此外，我們也嘗試找出使用者沒看過的MV，但可能是感興趣的MV！",
+      "feature": [
+        "提供RESTful APIs給終端節點。",
+        "透過APIs管理MV的資料。",
+        "使用者可以透過APIs管理自己的播放清單。"
+      ],
+      "key_tech": [
+        "node.js",
+        "express",
+        "MongoDB",
+        "ES6 promise",
+        "RESTful API",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/tayal",
       "duty": [
         "專案擁有者",
@@ -102,7 +124,21 @@
     {
       "name": "sylvia/syliva-admin",
       "date": "2017",
-      "abstract": "利用Angular實作SPA，整合tayal的RESTful API來管理Music Video的資訊。",
+      "abstract": "利用Angular實作SPA，整合tayal的RESTful API來管理Music Video的資訊，並且可以讓使用者透過sylvia使用移動裝置使用SPA。",
+      "feature": [
+        "整合tayal提供的RESTful APIs。",
+        "系統管理員圖以管理MV的資料。",
+        "使用者可以在線上觀看MV及管理自己的播放清單。"
+      ],
+      "key_tech": [
+        "Angular",
+        "angular-cli",
+        "RWD",
+        "Lazy Load",
+        "Rxjs",
+        "Bootstrap",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/sylvia-admin",
       "duty": [
         "專案擁有者",
@@ -113,7 +149,16 @@
     {
       "name": "SMSLifeHelp",
       "date": "2015",
-      "abstract": "利用jQuery及Bootstrap CSS設計替代役補助資格試算網頁。",
+      "abstract": "利用jQuery及Bootstrap CSS設計替代役補助資格試算網頁，協助地方區公所及替代役男在線上確認申請資格。",
+      "feature": [
+        "協助區公所的行政人員審查替代役男補助申請資格。",
+        "產生是否通過的報告書；若未通過，則列出不合格的原因。"
+      ],
+      "key_tech": [
+        "jQuery",
+        "Bootstrap",
+        "etc."
+      ],
       "link": "https://github.com/rockers7414/SMSLifeHelp",
       "duty": [
         "專案擁有者",
@@ -123,7 +168,20 @@
     {
       "name": "P2P網路安全協防攻擊偵測平台",
       "date": "2013",
-      "abstract": "利用C#實作P2P網路及ARP spoofing的技術實作Virtual Gateway，進行網路封包掃瞄。",
+      "abstract": "我們開發的平台可以掃瞄區域網路中的惡意攻擊行為，一旦攻擊被偵測到，我們可以阻斷送出惡意攻擊封包的電腦網路連線能力。",
+      "feature": [
+        "使用者可以向平台管理員發出掃瞄惡意網路攻擊的請求。",
+        "平台管理員可以阻斷惡意攻擊的電腦。",
+        "系統可以打包Virtual Gateway所蒐集到的所有封包。"
+      ],
+      "key_tech": [
+        "C#.net",
+        "P2P",
+        "UDP",
+        "ARP protocol",
+        "sniffer",
+        "etc."
+      ],
       "link": "",
       "duty": [
         "Software Engineer"
@@ -132,7 +190,15 @@
     {
       "name": "廠房內運輸機器人之避障路徑規劃",
       "date": "2012",
-      "abstract": "利用C#實作多目標基因遺傳演算法，得到最理想的避障路徑，並使用藍芽將路徑傳送給機器人。",
+      "abstract": "我們利用多目標基因遺傳演算法，得到最理想的避障路徑，並使用藍芽將路徑傳送給機器人。機器人可以利用該路徑運送材料，而且此路徑較為平滑、安全且距離較短。",
+      "feature": [
+        "利用多目標基因遺傳演算法，得到最理想的避障路徑。"
+      ],
+      "key_tech": [
+        "C#.net",
+        "Multiobjective genetic algorithm",
+        "etc."
+      ],
       "link": "https://www.youtube.com/watch?v=mXGE7UXt0lo",
       "duty": [
         "專案擁有者",
@@ -142,7 +208,16 @@
     {
       "name": "Event Analysis System",
       "date": "2012",
-      "abstract": "利用Python實作應用程式來Parsing Apache的Access Log，並找出惡意攻擊的行為。",
+      "abstract": "利用Python實作應用程式來Parsing Apache的Access Log，並找出惡意攻擊的行為，並產生PDF的報告。",
+      "feature": [
+        "Parsing Apache的access log來偵測攻擊行為。",
+        "產生PDF報告。"
+      ],
+      "key_tech": [
+        "Python",
+        "Apache",
+        "etc."
+      ],
       "link": "",
       "duty": [
         "Software Engineer"
@@ -152,7 +227,40 @@
       "name": "I Hack Music",
       "date": "2012",
       "abstract": "利用Python實作Google App Engine應用程式及Google hacking的搜尋方式，取得使用者查找的音樂。",
+      "feature": [
+        "使用者可以使用Gmail的帳號登入/登出平台。",
+        "使用者可以管理自己建立的播放清單。",
+        "使用者可以在線上播放音樂。"
+      ],
+      "key_tech": [
+        "Python",
+        "Google hacking",
+        "Google App Engine",
+        "etc."
+      ],
       "link": "https://github.com/cclien0725/IHM",
+      "duty": [
+        "Coworker",
+        "Software Engineer"
+      ]
+    },
+    {
+      "name": "3C購物平台",
+      "date": "2010",
+      "abstract": "此專案為資料庫課程的期末專案。我和同學實作了一個3C購物平台，讓商家可以輕鬆的上架自己的商品外，客戶也可以輕鬆的找到想要購買商品。",
+      "feature": [
+        "使用者可以登入/登出平台，且管理自己的會員資料及訂單。",
+        "管理員可以輕鬆的上架產品。",
+        "使用者可以動態的切換商品呈現方式，及詳細的商品規格。",
+        "系統會提醒會員商品已被使用者訂購。"
+      ],
+      "key_tech": [
+        "ASP.net",
+        "C#",
+        "MSSQL",
+        "etc."
+      ],
+      "link": "",
       "duty": [
         "Coworker",
         "Software Engineer"
